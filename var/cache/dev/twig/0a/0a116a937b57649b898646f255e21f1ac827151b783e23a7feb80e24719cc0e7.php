@@ -46,26 +46,29 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
         // line 1
         echo "<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=\"UTF-8\">
-        <title>";
-        // line 5
-        $this->displayBlock('title', $context, $blocks);
-        echo "</title>
-        ";
+\t<head>
+\t\t<meta charset=\"UTF-8\">
+\t\t<title>
+\t\t\t";
         // line 6
-        $this->displayBlock('stylesheets', $context, $blocks);
-        // line 7
-        echo "    </head>
-    <body>
-        ";
+        $this->displayBlock('title', $context, $blocks);
+        // line 8
+        echo "\t\t</title>
+\t\t";
         // line 9
-        $this->displayBlock('body', $context, $blocks);
+        $this->displayBlock('stylesheets', $context, $blocks);
         // line 10
-        echo "        ";
+        echo "\t</head>
+\t<body>
+\t\tsfdñlgjsdljk
+\t\t";
+        // line 13
+        $this->displayBlock('body', $context, $blocks);
+        // line 14
+        echo "\t\t";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 11
-        echo "    </body>
+        // line 15
+        echo "\t</body>
 </html>
 ";
         
@@ -76,7 +79,7 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
 
     }
 
-    // line 5
+    // line 6
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -86,7 +89,8 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Welcome!";
+        echo "Welcome!
+\t\t\t";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -95,7 +99,7 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
 
     }
 
-    // line 6
+    // line 9
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -113,7 +117,7 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
 
     }
 
-    // line 9
+    // line 13
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -131,7 +135,7 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
 
     }
 
-    // line 10
+    // line 14
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -156,23 +160,27 @@ class __TwigTemplate_cbf8a287cae71753ee0086893ea9094018ab4f4ee44644a7fe5e3c45405
 
     public function getDebugInfo()
     {
-        return array (  135 => 10,  117 => 9,  99 => 6,  80 => 5,  68 => 11,  65 => 10,  63 => 9,  59 => 7,  57 => 6,  53 => 5,  47 => 1,);
+        return array (  139 => 14,  121 => 13,  103 => 9,  83 => 6,  71 => 15,  68 => 14,  66 => 13,  61 => 10,  59 => 9,  56 => 8,  54 => 6,  47 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=\"UTF-8\">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+\t<head>
+\t\t<meta charset=\"UTF-8\">
+\t\t<title>
+\t\t\t{% block title %}Welcome!
+\t\t\t{% endblock %}
+\t\t</title>
+\t\t{% block stylesheets %}{% endblock %}
+\t</head>
+\t<body>
+\t\tsfdñlgjsdljk
+\t\t{% block body %}{% endblock %}
+\t\t{% block javascripts %}{% endblock %}
+\t</body>
 </html>
-", "base.html.twig", "/home/alumno/Documentos/HMG/HMG/templates/base.html.twig");
+", "base.html.twig", "/application/templates/base.html.twig");
     }
 }
