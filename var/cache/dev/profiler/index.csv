@@ -1,0 +1,5 @@
+e7ba63,172.18.0.1,GET,http://localhost:8000/,1617893316,,404
+45489a,172.18.0.1,GET,http://localhost:8000/favicon.ico,1617893317,7be9fb,404
+7be9fb,172.18.0.1,GET,http://localhost:8000/favicon.ico,1617893317,,404
+36d9eb,172.18.0.1,GET,http://localhost:8000/pokemonform,1617893325,515d2a,404
+515d2a,172.18.0.1,GET,http://localhost:8000/pokemonform,1617893325,,404
